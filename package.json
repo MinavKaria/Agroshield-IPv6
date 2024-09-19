@@ -1,0 +1,16 @@
+{
+  "name": "agroshieldall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "website": "cd AgroShield && npm run dev",
+    "server": "cd AgroShield-Server && nodemon index.js",
+    "mobile": "cd AgroShieldMobile && npm run dev",
+    "ml": "cd ML Model && python final.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

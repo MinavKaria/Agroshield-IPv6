@@ -1,0 +1,247 @@
+babel==2.16.0
+backcall==0.2.0
+beautifulsoup4==4.12.2
+  - soupsieve [required: >1.2, installed: ?]
+Cartopy==0.22.0
+  - matplotlib [required: >=3.4, installed: ?]
+  - numpy [required: >=1.21, installed: ?]
+  - packaging [required: >=20, installed: 24.1]
+  - pyproj [required: >=3.1.0, installed: 3.6.1]
+    - certifi [required: Any, installed: ?]
+  - pyshp [required: >=2.1, installed: 2.3.1]
+  - shapely [required: >=1.7, installed: 2.0.2]
+    - numpy [required: >=1.14, installed: ?]
+chardet==3.0.4
+colorgram.py==1.2.0
+  - pillow [required: >=3.3.1, installed: ?]
+connexion==2.14.2
+  - clickclick [required: >=1.2,<21, installed: 20.10.2]
+    - click [required: >=4.0, installed: ?]
+    - PyYAML [required: >=3.11, installed: ?]
+  - flask [required: >=1.0.4,<2.3, installed: ?]
+  - inflection [required: >=0.3.1,<0.6, installed: 0.5.1]
+  - itsdangerous [required: >=0.24, installed: ?]
+  - jsonschema [required: >=2.5.1,<5, installed: ?]
+  - packaging [required: >=20, installed: 24.1]
+  - PyYAML [required: >=5.1,<7, installed: ?]
+  - requests [required: >=2.9.1,<3, installed: ?]
+  - Werkzeug [required: >=1.0,<2.3, installed: 3.0.1]
+    - MarkupSafe [required: >=2.1.1, installed: ?]
+controller==0.1.0
+  - python-socketio [required: Any, installed: 5.11.2]
+    - bidict [required: >=0.21.0, installed: 0.23.1]
+    - python-engineio [required: >=4.8.0, installed: 4.9.0]
+      - simple-websocket [required: >=0.10.0, installed: 1.0.0]
+        - wsproto [required: Any, installed: 1.2.0]
+          - h11 [required: >=0.9.0,<1, installed: ?]
+  - requests [required: Any, installed: ?]
+cvzone==1.6.1
+  - numpy [required: Any, installed: ?]
+  - opencv-python [required: Any, installed: ?]
+Cython==3.0.4
+docopt==0.6.2
+filterpy==1.4.5
+  - matplotlib [required: Any, installed: ?]
+  - numpy [required: Any, installed: ?]
+  - scipy [required: Any, installed: ?]
+Flask-Login==0.6.3
+  - Flask [required: >=1.0.4, installed: ?]
+  - Werkzeug [required: >=1.0.1, installed: 3.0.1]
+    - MarkupSafe [required: >=2.1.1, installed: ?]
+Flask-Session==0.5.0
+  - cachelib [required: Any, installed: 0.10.2]
+  - flask [required: >=2.2, installed: ?]
+geoip2==4.8.0
+  - aiohttp [required: >=3.6.2,<4.0.0, installed: ?]
+  - maxminddb [required: >=2.5.1,<3.0.0, installed: 2.5.1]
+    - setuptools [required: >=68.2.2, installed: ?]
+  - requests [required: >=2.24.0,<3.0.0, installed: ?]
+  - setuptools [required: >=60.0.0, installed: ?]
+googletrans==4.0.0rc1
+  - httpx [required: ==0.13.3, installed: ?]
+gTTS==2.5.1
+  - click [required: >=7.1,<8.2, installed: ?]
+  - requests [required: >=2.27,<3, installed: ?]
+h2==3.2.0
+  - hpack [required: >=3.0,<4, installed: 3.0.0]
+  - hyperframe [required: >=5.2.0,<6, installed: 5.2.0]
+hstspreload==2024.4.1
+hydra-core==1.3.2
+  - antlr4-python3-runtime [required: ==4.9.*, installed: 4.9.3]
+  - omegaconf [required: >=2.2,<2.4, installed: 2.3.0]
+    - antlr4-python3-runtime [required: ==4.9.*, installed: 4.9.3]
+    - PyYAML [required: >=5.1.0, installed: ?]
+  - packaging [required: Any, installed: 24.1]
+kivymd==2.0.1.dev0
+  - asynckivy [required: >=0.6,<0.7, installed: 0.6.2]
+    - asyncgui [required: >=0.6,<0.7, installed: 0.6.1]
+  - Kivy [required: >=2.3.0, installed: 2.3.0]
+    - docutils [required: Any, installed: 0.21.1]
+    - kivy-deps.angle [required: ~=0.4.0, installed: 0.4.0]
+    - kivy-deps.glew [required: ~=0.3.1, installed: 0.3.1]
+    - kivy-deps.sdl2 [required: ~=0.7.0, installed: 0.7.0]
+    - Kivy-Garden [required: >=0.1.4, installed: 0.1.5]
+      - requests [required: Any, installed: ?]
+    - pygments [required: Any, installed: ?]
+    - pypiwin32 [required: Any, installed: 223]
+      - pywin32 [required: >=223, installed: ?]
+  - materialyoucolor [required: >=2.0.7, installed: 2.0.9]
+  - pillow [required: Any, installed: ?]
+mediapipe==0.10.11
+  - absl-py [required: Any, installed: ?]
+  - attrs [required: >=19.1.0, installed: ?]
+  - flatbuffers [required: >=2.0, installed: ?]
+  - jax [required: Any, installed: 0.4.26]
+    - ml-dtypes [required: >=0.2.0, installed: ?]
+    - numpy [required: >=1.22, installed: ?]
+    - numpy [required: >=1.23.2, installed: ?]
+    - opt-einsum [required: Any, installed: ?]
+    - scipy [required: >=1.9, installed: ?]
+  - matplotlib [required: Any, installed: ?]
+  - numpy [required: Any, installed: ?]
+  - opencv-contrib-python [required: Any, installed: 4.9.0.80]
+    - numpy [required: >=1.21.2, installed: ?]
+    - numpy [required: >=1.23.5, installed: ?]
+    - numpy [required: >=1.17.0, installed: ?]
+    - numpy [required: >=1.17.3, installed: ?]
+    - numpy [required: >=1.19.3, installed: ?]
+  - protobuf [required: >=3.11,<4, installed: ?]
+  - sounddevice [required: >=0.4.4, installed: 0.4.6]
+    - CFFI [required: >=1.0, installed: ?]
+mtkclient==1.4
+  - colorama [required: Any, installed: ?]
+  - pycryptodome [required: Any, installed: 3.16.0]
+  - pyusb [required: Any, installed: 1.2.1]
+  - usb [required: Any, installed: 0.0.83.dev0]
+mysql==0.0.3
+  - mysqlclient [required: Any, installed: 2.2.4]
+mysql-connector==2.2.9
+mysql-connector-python==8.4.0
+nbclassic==1.0.0
+  - argon2-cffi [required: Any, installed: ?]
+  - ipykernel [required: Any, installed: ?]
+  - ipython-genutils [required: Any, installed: 0.2.0]
+  - jinja2 [required: Any, installed: ?]
+  - jupyter-client [required: >=6.1.1, installed: ?]
+  - jupyter-core [required: >=4.6.1, installed: ?]
+  - jupyter-server [required: >=1.8, installed: ?]
+  - nbconvert [required: >=5, installed: ?]
+  - nbformat [required: Any, installed: ?]
+  - nest-asyncio [required: >=1.5, installed: ?]
+  - notebook-shim [required: >=0.2.3, installed: ?]
+  - prometheus-client [required: Any, installed: ?]
+  - pyzmq [required: >=17, installed: ?]
+  - Send2Trash [required: >=1.8.0, installed: ?]
+  - terminado [required: >=0.8.3, installed: ?]
+  - tornado [required: >=6.1, installed: 6.3.2]
+  - traitlets [required: >=4.2.1, installed: 5.9.0]
+panda==0.3.1
+  - requests [required: Any, installed: ?]
+  - setuptools [required: Any, installed: ?]
+pickleshare==0.7.5
+pipdeptree==2.23.1
+  - packaging [required: >=23.1, installed: 24.1]
+  - pip [required: >=23.1.2, installed: 24.2]
+PyAutoGUI==0.9.54
+  - MouseInfo [required: Any, installed: 0.1.3]
+    - pyperclip [required: Any, installed: 1.8.2]
+  - PyGetWindow [required: >=0.0.5, installed: 0.0.9]
+    - PyRect [required: Any, installed: 0.2.0]
+  - PyMsgBox [required: Any, installed: 1.0.9]
+  - PyScreeze [required: >=0.1.21, installed: 0.1.30]
+    - Pillow [required: >=9.3.0, installed: ?]
+  - pytweening [required: >=1.0.4, installed: 1.2.0]
+pydantic==2.8.2
+  - annotated-types [required: >=0.4.0, installed: 0.7.0]
+  - pydantic_core [required: ==2.20.1, installed: 2.20.1]
+    - typing_extensions [required: >=4.6.0,!=4.7.0, installed: 4.12.2]
+  - typing_extensions [required: >=4.6.1, installed: 4.12.2]
+pygame==2.4.0
+pyinstaller==5.13.0
+  - altgraph [required: Any, installed: 0.17.3]
+  - pefile [required: >=2022.5.30, installed: 2023.2.7]
+  - pyinstaller-hooks-contrib [required: >=2021.4, installed: 2023.4]
+  - pywin32-ctypes [required: >=0.2.1, installed: 0.2.2]
+  - setuptools [required: >=42.0.0, installed: ?]
+pyo==1.0.5
+pyrsistent==0.19.3
+pyserial==3.5
+pyshark==0.6
+  - appdirs [required: Any, installed: 1.4.4]
+  - lxml [required: Any, installed: 4.9.3]
+  - packaging [required: Any, installed: 24.1]
+  - termcolor [required: Any, installed: ?]
+pytesseract==0.3.10
+  - packaging [required: >=21.3, installed: 24.1]
+  - Pillow [required: >=8.0.0, installed: ?]
+python-dotenv==1.0.1
+rfc3986==1.5.0
+Routes==2.5.1
+  - repoze.lru [required: >=0.3, installed: 0.7]
+  - six [required: Any, installed: ?]
+scapy==2.5.0
+scikit-image==0.22.0
+  - imageio [required: >=2.27, installed: 2.34.0]
+    - numpy [required: Any, installed: ?]
+    - pillow [required: >=8.3.2, installed: ?]
+  - lazy_loader [required: >=0.3, installed: 0.3]
+  - networkx [required: >=2.8, installed: ?]
+  - numpy [required: >=1.22, installed: ?]
+  - packaging [required: >=21, installed: 24.1]
+  - pillow [required: >=9.0.1, installed: ?]
+  - scipy [required: >=1.8, installed: ?]
+  - tifffile [required: >=2022.8.12, installed: 2024.2.12]
+    - numpy [required: Any, installed: ?]
+starlette==0.38.4
+  - anyio [required: >=3.4.0,<5, installed: ?]
+swagger-ui-bundle==0.0.9
+  - Jinja2 [required: >=2.0, installed: ?]
+ultralytics==8.1.26
+  - matplotlib [required: >=3.3.0, installed: ?]
+  - opencv-python [required: >=4.6.0, installed: ?]
+  - pandas [required: >=1.1.4, installed: ?]
+  - pillow [required: >=7.1.2, installed: ?]
+  - psutil [required: Any, installed: ?]
+  - py-cpuinfo [required: Any, installed: 9.0.0]
+  - pyyaml [required: >=5.3.1, installed: ?]
+  - requests [required: >=2.23.0, installed: ?]
+  - scipy [required: >=1.4.1, installed: ?]
+  - seaborn [required: >=0.11.0, installed: ?]
+  - thop [required: >=0.1.1, installed: 0.1.1-2209072238]
+    - torch [required: Any, installed: ?]
+  - torch [required: >=1.8.0, installed: ?]
+  - torchvision [required: >=0.9.0, installed: 0.17.1]
+    - numpy [required: Any, installed: ?]
+    - pillow [required: >=5.3.0,!=8.3.*, installed: ?]
+    - torch [required: ==2.2.1, installed: ?]
+  - tqdm [required: >=4.64.0, installed: 4.66.2]
+    - colorama [required: Any, installed: ?]
+uri-template==1.2.0
+urllib3==2.2.2
+ursina==5.2.0
+  - Panda3D [required: Any, installed: 1.10.13.post1]
+  - panda3d-gltf [required: Any, installed: 0.13]
+    - Panda3D [required: >=1.10.8, installed: 1.10.13.post1]
+    - panda3d-simplepbr [required: >=0.6, installed: 0.10]
+      - Panda3D [required: >=1.10.8, installed: 1.10.13.post1]
+  - pillow [required: Any, installed: ?]
+  - pyperclip [required: Any, installed: 1.8.2]
+vboxapi==1.0
+virtualenv==20.25.0
+  - distlib [required: >=0.3.7,<1, installed: ?]
+  - filelock [required: >=3.12.2,<4, installed: ?]
+  - platformdirs [required: >=3.9.1,<5, installed: ?]
+wcwidth==0.2.6
+webcolors==24.8.0
+webencodings==0.5.1
+websocket-client==1.5.3
+wheel==0.42.0
+widgetsnbextension==4.0.7
+winpcapy==1.0.2
+wxPython==4.2.1
+  - numpy [required: Any, installed: ?]
+  - pillow [required: Any, installed: ?]
+  - six [required: Any, installed: ?]
+yarl==1.9.4
+  - idna [required: >=2.0, installed: ?]
+  - multidict [required: >=4.0, installed: ?]

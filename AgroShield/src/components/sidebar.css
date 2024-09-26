@@ -1,0 +1,9 @@
+.hovAnim{
+    transition: all 150ms ease;
+}
+.hovAnim:hover{
+    scale: 110%;
+    background-color: #262a33;
+    transition: all 150ms ease;
+    color: #8e61f1;
+}

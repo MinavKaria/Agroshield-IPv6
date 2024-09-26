@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+div{
+    font-family: 'Lexend', sans-serif;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1000;
+}
+.navRightEl span{
+    padding-bottom: 1.5vh;
+    padding-top: 1.5vh;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    border-width: 0px;
+    border-color: #9f79f3;
+    border-radius: 1vh;
+    transition-duration: 250ms;
+}
+.navRightEl span:hover{
+    scale: 105%;
+    color: #9f79f3;
+    border-bottom-width: 1vh;
+    transition-duration: 150ms;
+}
+.anim{
+    transition-duration: 150ms;
+}
+.anim:hover{
+    scale: 110%;
+    transition-duration: 150ms;
+}
+.breathAnim{
+    transition: all 150ms ease; 
+}
+.breathAnim:hover{
+    color: transparent;
+    transition: all 150ms ease;
+    font-style: italic;
+    background: linear-gradient(270deg, #6d31ed, #ccb4ff);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-animation: AnimationName 2s ease infinite;
+    -moz-animation: AnimationName 2s ease infinite;
+    animation: AnimationName 2s ease infinite;
+    background-clip: text;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 42%}
+    50%{background-position:100% 59%}
+    100%{background-position:0% 42%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 42%}
+    50%{background-position:100% 59%}
+    100%{background-position:0% 42%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 42%}
+    50%{background-position:100% 59%}
+    100%{background-position:0% 42%}
+}
